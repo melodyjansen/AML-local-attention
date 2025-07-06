@@ -36,7 +36,7 @@ Binary **sentiment classification** on the [IMDb dataset](http://ai.stanford.edu
 
 ###  Local Attention Model
 - Modified `BertSelfAttention` with a **custom local attention mask**
-- Each token attends only to a window of neighboring tokens (e.g., ±3)
+- Each token attends only to a window of neighboring tokens (e.g., in our case 3)
 
 
 
